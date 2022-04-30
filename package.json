@@ -1,6 +1,7 @@
 {
   "name": "react-mui",
   "version": "0.1.0",
+  "homepage": "https://facundoserna96.github.io/react-mui/",
   "private": true,
   "dependencies": {
     "@emotion/react": "^11.9.0",
@@ -20,7 +21,9 @@
     "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject",
-    "lint": "eslint ."
+    "lint": "eslint .",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build"
   },
   "eslintConfig": {
     "extends": [
@@ -43,6 +46,7 @@
   },
   "devDependencies": {
     "eslint-plugin-react": "^7.29.4",
+    "gh-pages": "^3.2.3",
     "standard": "^17.0.0"
   }
 }
