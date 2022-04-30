@@ -41,7 +41,7 @@ const Navbar = () => {
       <StyledToolbar>
         <Typography variant='h6' sx={{ display: { xs: 'none', sm: 'block' } }}>MATERIAL UI</Typography>
         <Pets sx={{ display: { xs: 'block', sm: 'none' } }} />
-        <Search><InputBase placeholder='Search...' /></Search>
+        <Search><InputBase sx={{ color: 'gray' }} placeholder='Search...' /></Search>
         <Icons>
           <Badge badgeContent={4} color='error'>
             <Mail />
